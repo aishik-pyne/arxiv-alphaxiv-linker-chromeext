@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Arxiv Alpha Linker",
+  "version": "1.0",
+  "description": "Adds a link to alphaarxiv.org on arxiv.org abstract pages.",
+  "content_scripts": [
+    {
+      "matches": ["https://arxiv.org/abs/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": []
+}
