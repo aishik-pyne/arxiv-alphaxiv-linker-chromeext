@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Pack Chrome Extension",
+      "command": "zip -r dist/arxiv-alpha-linker.zip manifest.json content.js",
+      "args": [],
+      "group": "build",
+      "isBackground": false,
+      "problemMatcher": []
+    }
+  ]
+}
